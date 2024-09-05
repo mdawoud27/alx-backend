@@ -35,4 +35,3 @@ class MRUCache(BaseCaching):
         if value:
             self.last_key = key
         return self.cache_data.get(key, None)
-
